@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 
-html, body {
+/* html, body {
     height: 100%;
 }
 
@@ -15,7 +15,7 @@ body {
 .row {
     width: 100%;
     min-height: 100px;
-
+    
     background-color: yellow;
 }
 
@@ -36,4 +36,31 @@ body {
     width: 66.66663%;
 
     background-color: black;
+} */
+html, body {
+    height: 100%;
+}
+.container {
+    display:flex;
+    height: 450px;
+}
+
+.column {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.column-one-third {
+    width: 33.3333%;
+    background-color: pink;
+}
+
+.column-two-third {
+    width: 66.66663%;
+     background-color: black;
+}
+.row {
+    display: flex;
+    background-color: yellow;
+    height: 15%;
 }
